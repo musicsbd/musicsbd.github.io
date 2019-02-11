@@ -50,5 +50,10 @@ var bszCaller,bszTag;!function(){var c,d,e,a=!1,b=[];ready=function(c){return a|
 </script>
 
 
-
+  {% include facebook-like.html %}
+  {% if page.fbcomments %}
+    <hr/>
+    <h4>Comments</h4>
+    <div class="fb-comments" data-href="http://ebooksbd.github.io{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+  {% endif %}
 
