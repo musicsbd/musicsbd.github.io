@@ -12,7 +12,7 @@ layout: default
 		<strong>Author:</strong> {{ page.author }}
 
 		{% if page.license %}
-			<br /><strong>License:</strong> {{ page.license }}
+			<br /><strong>Format:</strong> {{ page.license }}
 		{% endif %}
 
 		<br /><br />
@@ -23,7 +23,7 @@ layout: default
 			<a class="btn" href="{{ page.download }}"><i class="icon-download-alt"></i> Download</a>
 		{% endif %}
 		{% if page.demo %}
-			<a class="btn" href="{{ page.demo }}"><i class="icon-road"></i> Demo</a>
+			<a class="btn" href="{{ page.view }}"><i class="icon-road"></i> View</a>
 		{% endif %}
 		{% if page.license_link %}
 			<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>
