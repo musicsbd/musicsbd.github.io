@@ -14,3 +14,6 @@ rdiscount:
     extensions: ['smart']
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+
+includes: 
+[ fbcomments: yes]
